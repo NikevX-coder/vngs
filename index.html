@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Helpi</title>
+    <!--min CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="fluid">
+        <marquee behavior="alternate" direction="left" scrolldelay="1">
+            <h7>Helper v1.0 - Samtech 2022</h7>
+        </marquee>
+
+
+
+
+
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-light border border-2 rounded-top">
+                <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <li>
+                        <object data="https://www.samtech.cl/home/wp-content/uploads/2021/04/Pulse-1s-84px.gif" width="38" height="38"> </object>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://trans.samtech.cl" target="_blank">TRANS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SDF</a>
+                    </li>
+                    
+                    
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-1" type="search" placeholder="ID" aria-label="Search">
+                    <input class="form-control me-1" type="date" aria-label="Fecha">
+                    <button class="btn btn-outline-success" type="submit">Log</button>
+                    </form>
+                </div>
+                </div>
+            </nav>
+        
+
+
+
+
+    <div class="d-flex align-items-start border border-2 rounded-bottom " style="background-color: rgba(39, 41, 43, 0.03);">
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Novedades</button>
+          <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Comandos</button>
+          <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+          <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+        </div>
+        <div class="tab-content" id="v-pills-tabContent">
+          
+          
+          <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">...
+
+            Hola
+
+          </div>
+
+
+
+
+          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+            <h3 class="display-6 text-center">Listado de comandos</h3>
+            
+            <table class="table table-dark table-striped border border-2">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col" colspan="2">Concepto</th>
+                    <th scope="col" colspan="2">Comnando</th>
+                    <th scope="col" colspan="2">Descripcion</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td colspan="2">Consulta Imei</td>
+                    <td colspan="2">QGRC</td>
+                    <td colspan="2">Consulta el Imei de la sim instalada en el GPS</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td colspan="2">Activacion BP</td>
+                    <td colspan="2">SED23 IN010-++PI IPO</td>
+                    <td colspan="2">Siempre y cuando este conectado el cable amarillo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Actualizar Horometro</td>
+                    <td colspan="2">SCH16=(Horas motor x60)</td>
+                    <td colspan="2">-</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td colspan="2">Apagar Buzzer *TRAX S16/S15</td>
+                    <td colspan="2">SAU30</td>
+                    <td colspan="2">Solo TRAX S16/S15</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+
+
+
+        </div>
+
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+            
+
+              <iframe class="col-lg-12 col-md-12 col-sm-12" src="https://trans.samtech.cl/modulos/logs/ver_log.asp"></iframe>
+            
+            
+          </div>
+          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+        </div>
+      </div>
+  
+
+
+
+
+
+    </div>
+    </div>
+
+
+
+
+
+    
+
+
+
+
+    <!--Script de Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
